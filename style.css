@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Quicksand", sans-serif;
+}
+
+.carrito{
+    width: 3em;
+    position: relative;
+    display: inline-flex;
+}
+
+
+.cart{
+    font-size: 3em;
+    position: relative;
+    display: inline-flex;
+}
+
+.carritoc{
+    position: absolute;
+    float: right;
+    top: 5em;
+    right: 5em;
+}
+
+a{
+    border-bottom: solid white;
+    color: solid black;
+    border-width: 2px;
+    transition: 0.5s;
+    padding: 0em;
+}
+a:hover{
+    border-bottom: solid black;
+    color: solid white;
+    border-width: 2px;
+    padding: 2px;
+    transition: 2ss;
+}
